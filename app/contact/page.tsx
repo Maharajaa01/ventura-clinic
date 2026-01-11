@@ -76,7 +76,7 @@ export default function ContactPage() {
                   <Phone className="w-12 h-12 text-primary mx-auto mb-4" />
                   <h3 className="text-lg font-semibold text-foreground mb-2">Phone</h3>
                   <p className="text-foreground/70">
-                    <a href="tel:+919876543210" className="hover:text-primary transition-colors">
+                    <a href="tel:+918610801397" className="hover:text-primary transition-colors">
                       +91 98765 43210
                     </a>
                     <br />
@@ -106,7 +106,7 @@ export default function ContactPage() {
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen=""
+                allowFullScreen={true}
                 loading="lazy"
               />
             </div>
