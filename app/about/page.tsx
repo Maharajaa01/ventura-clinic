@@ -144,9 +144,8 @@ export default function AboutPage() {
 
             <div className="grid md:grid-cols-3 gap-8">
               {[
-                { name: "Dr. Arun Kumar", title: "Lead Dermatologist", experience: "15+ years" },
-                { name: "Dr. Priya Sharma", title: "Hair Specialist", experience: "12+ years" },
-                { name: "Dr. Rahul Patel", title: "Skin Specialist", experience: "10+ years" },
+                { name: "Dr. Rajesh Kumar", title: "Lead Dermatologist", experience: "15+ years" },
+            
               ].map((member, idx) => (
                 <Card key={idx} className="overflow-hidden hover:shadow-lg transition-all duration-300">
                   <div className="h-64 bg-gradient-to-br from-primary/20 to-accent/20" />
